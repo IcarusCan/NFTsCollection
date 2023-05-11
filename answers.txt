@@ -1,0 +1,45 @@
+1. Sau khi chạy lệnh npm run generate lần đầu, trong thư mục build có bao nhiều file ảnh và bao nhiều file json?
+
+>>> Trả lời:
+-  Có 10 file ảnh và 11 file json (trong đó có 1 file _metadata.json là 1 mảng bao gồm thông tin của 10 file json kia)
+
+
+2. Sau khi điều chỉnh file cấu hình và chạy lại lệnh, trong thư mục build có bao nhiêu file ảnh và bao nhiêu file json?
+
+>>> Trả lời:
+-  Có 20 file ảnh và 21 file json (trong đó có 1 file _metadata.json là 1 mảng bao gồm thông tin của 20 file json kia)
+
+
+3. Sau khi upload thư mục build/images lên Pinata, thư mục mới có CID là gì, và đường dẫn baseURI của nó là gì?
+
+>>> Trả lời:
+- CID: QmYwab893h5T42nVsw35MbtVsZEDiSWBSE1V8WgDj5onV1
+- baseURI: ipfs://QmYwab893h5T42nVsw35MbtVsZEDiSWBSE1V8WgDj5onV1
+
+
+4. Sau khi chạy lệnh npm run generate_metadata, kiểm tra file _metadata.json trong thư mục build, dữ liệu là một mảng (array) có bao nhiêu phần tử? Đường dẫn ảnh của phần tử đầu tiên là gì?
+
+>>> Trả lời:
+- Dữ liệu trong _metadata.json trong thư mục build là một mảng (array) với 20 phần tử
+- Đường dẫn ảnh của phần tử đầu tiên: ipfs://QmYwab893h5T42nVsw35MbtVsZEDiSWBSE1V8WgDj5onV1/1.png
+
+
+5. Sau khi upload thư mục build/json lên Pinata, thư mục mới có CID là gì, và tên của thư mục là gì?
+
+>>> Trả lời:
+- CID: QmTQgH1LG7iRNcEL4UBq92xAL254njGqmFbUuwubzoV8Eq
+- Tên thư mục: FunixCryptoSimsMeta
+
+
+
+6. Sau khi deploy thành công hợp đồng thông minh, đường dẫn trên OpenSea đến collection của bạn là gì?
+
+>>> Trả lời:
+- Link: https://testnets.opensea.io/collection/thefunixcryptosims-v2
+
+
+NÂNG CAO:
+
+7. Đường dẫn đến NFT mà bạn chuyển cho tài khoản chỉ định trong bài là gì?
+>>> Trả lời:
+- Link: https://testnets.opensea.io/assets/goerli/0x13c23d47321712210ba52d9a8dc07f28a7ae344d/14
